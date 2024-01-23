@@ -1,0 +1,56 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "what's up",
+        "how is it going"
+      ],
+      "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "farewell"],
+      "responses": ["Goodbye!", "See you later!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thanks a lot"],
+      "responses": ["You're welcome!", "Anytime!", "Glad I could help!"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["who are you", "what are you", "tell me about yourself"],
+      "responses": [
+        "I am a chatbot.",
+        "I'm here to assist you.",
+        "I'm just a computer program."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "what's the weather like today",
+        "tell me the weather forecast",
+        "is it going to rain"
+      ],
+      "responses": [
+        "I'm sorry, I don't have real-time weather information.",
+        "You can check a weather website for the current forecast."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what's your name", "do you have a name", "call you what"],
+      "responses": [
+        "You can call me ChatBot.",
+        "I don't have a personal name, you can just call me ChatBot."
+      ]
+    }
+  ]
+}
